@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+data/
+vector_store/
+
+.idea/
+.vscode/
+
+.streamlit/
+
+*.db

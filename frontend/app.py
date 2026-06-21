@@ -28,8 +28,8 @@ from dotenv import load_dotenv
 from frontend.style.theme import load_css
 load_dotenv()
 
-BASE_URL = "http://localhost:8000"
-BACKEND_URL = os.getenv("BACKEND_URL","http://127.0.0.1:8000")
+BASE_URL = "https://saar-ai-production.up.railway.app"
+BACKEND_URL = os.getenv("BACKEND_URL","https://saar-ai-production.up.railway.app/")
 
 # ─────────────────────────────────────────────
 #  PAGE CONFIG  (must be first Streamlit call)

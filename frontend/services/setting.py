@@ -1,5 +1,5 @@
 import requests
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://saar-ai-production.up.railway.app"
 def fetch_settings(token):
     response = requests.get(
         f"{BASE_URL}/settings/",

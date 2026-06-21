@@ -7,8 +7,7 @@ class Settings(BaseSettings):
     GROQ_API_KEY: str
     DATABASE_URL: str
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 120
-    ALGORITHM: str = "HS256"
-    CORE: str 
+    ALGORITHM: str = "HS256" 
 
     class Config:
         env_file = ".env"
